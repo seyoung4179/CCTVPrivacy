@@ -23,6 +23,7 @@ This model is required to perform **face swapping**.
 It is **not included** in the default `buffalo_l` model set and must be downloaded separately.
 You can download it directly from the official InsightFace release page:  
 🔗 [https://github.com/deepinsight/insightface/releases](https://github.com/deepinsight/insightface/releases)
+
 Place it in the following directory: /CCTVPrivacy/Swap/insightface/models/
 
 
@@ -31,7 +32,7 @@ Place it in the following directory: /CCTVPrivacy/Swap/insightface/models/
 | Folder | Description |
 |--------|--------------|
 | **Dataset/** | Contains input CCTV images and their corresponding face-swapped results. |
-| **Swap/** | Implements the **Face Swap** process using InsightFace or similar models — detecting, aligning, and replacing faces with synthetic ones. |
+| **Swap/** | Implements the **Face Swap** process using InsightFace — detecting, aligning, and replacing faces with synthetic ones. |
 | **Face_recognition/** | Provides functionality for face feature extraction, embedding comparison, and recognition using pretrained models. |
 | **Eval/** | Includes scripts to analyze how Face Swap techniques influence face recognition performance and privacy preservation. |
 
