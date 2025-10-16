@@ -40,5 +40,3 @@ Place it in the following directory: /CCTVPrivacy/Swap/insightface/models/
 ## Contact
 This page and files are still updating.
 
-Seyoung Jin (22sysy@g.skku.edu), Sungkyunkwan University 
-
