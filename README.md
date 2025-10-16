@@ -1,8 +1,6 @@
 # 🎥 CCTVPrivacy
-
-## 🧠 Overview
-CCTVPrivacy aims to enhance privacy protection in CCTV footage through **face swapping**,  
-replacing real faces with **synthetic (swapped) faces** while preserving overall recognition performance and visual naturalness. 
+CCTVPrivacy protects personal identity in CCTV footage through **face swapping**,  
+replacing original faces with **synthetic ones** while keeping scenes visually realistic.
 
 ## Key Features
 - Detects faces in input CCTV images.  
@@ -20,10 +18,14 @@ Download the official pre-trained models from:
 
 Place the downloaded files in: /CCTVPrivacy/Swap/insightface/models/buffalo_l/
 
+### 🧩 Folder Descriptions
 
-
-It aims to analyze how face anonymization techniques affect recognition and detection accuracy.
-
+| Folder | Description |
+|--------|--------------|
+| **Dataset/** | Contains input CCTV images and their corresponding face-swapped results. |
+| **Swap/** | Implements the **Face Swap** process using InsightFace or similar models — detecting, aligning, and replacing faces with synthetic ones. |
+| **Face_recognition/** | Provides functionality for face feature extraction, embedding comparison, and recognition using pretrained models. |
+| **Eval/** | Includes scripts to analyze how Face Swap techniques influence face recognition performance and privacy preservation. |
 
 
 ## Contact
