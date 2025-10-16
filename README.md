@@ -1,18 +1,9 @@
-# CCTVPrivacy
-# 🎥 CCTVPrivacy — Face Swapping & Face Detection Evaluation
+# 🎥 CCTVPrivacy
 
 ## 🧠 Overview
 **CCTVPrivacy** is a project designed to evaluate the performance of **Face Detection** and **Face Swapping** methods  
 for **privacy protection in CCTV footage**.  
 It aims to analyze how face anonymization techniques affect recognition and detection accuracy.
-
-## 🧩 Project Structure
-
-CCTVPrivacy/
-├── Dataset/ # Original and swapped face data
-├── Eval/ # Detection evaluation (mAP, Precision, Recall, etc.)
-├── Face_recognition/ # Face embedding and recognition modules
-├── Swap/ # Face Swapping modules
 
 ## 🧩 Model Downloads
 
