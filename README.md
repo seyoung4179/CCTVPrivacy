@@ -18,7 +18,15 @@ Download the official pre-trained models from:
 
 Place the downloaded files in: /CCTVPrivacy/Swap/insightface/models/buffalo_l/
 
-### 🧩 Folder Descriptions
+### 🟣 Face Swapping Model — `inswapper_128.onnx`
+This model is required to perform **face swapping**.  
+It is **not included** in the default `buffalo_l` model set and must be downloaded separately.
+You can download it directly from the official InsightFace release page:  
+🔗 [https://github.com/deepinsight/insightface/releases](https://github.com/deepinsight/insightface/releases)
+Place it in the following directory: /CCTVPrivacy/Swap/insightface/models/
+
+
+## 🧩 Folder Descriptions
 
 | Folder | Description |
 |--------|--------------|
@@ -30,5 +38,6 @@ Place the downloaded files in: /CCTVPrivacy/Swap/insightface/models/buffalo_l/
 
 ## Contact
 This page and files are still updating.
+
 Seyoung Jin (22sysy@g.skku.edu), Sungkyunkwan University 
 
