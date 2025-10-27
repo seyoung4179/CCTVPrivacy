@@ -1,3 +1,8 @@
+### Acknowledgements
+This work was supported by the National Research Foundation of Korea(NRF) grant funded by the Korea government(MSIT)(RS-2024-00451909).
+
+
+
 # 🎥 CCTVPrivacy
 CCTVPrivacy protects personal identity in CCTV footage through **face swapping**,  
 replacing original faces with **synthetic ones** while keeping scenes visually realistic.
